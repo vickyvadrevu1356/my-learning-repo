@@ -1,0 +1,40 @@
+* {
+    margin: 5px;
+}
+
+/* 
+nav{
+    background-color: rgb(93, 93, 202);
+    height: 30px;         
+} */
+nav ul {
+    background-color: rgb(93, 93, 202);
+    height: 30px;
+    text-align: end;
+    list-style-type: none;
+    /* Removes default bullets */
+    padding: 5px;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    color: #ff5733;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.profileImg {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+section{
+    margin-bottom: 25px;
+}
